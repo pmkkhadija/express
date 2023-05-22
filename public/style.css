@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Reset or Normalize CSS */
+/* ... */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #ff0000;
+  }
+  
+  /* Page-specific Styles */
+  /* Home Page */
+  .home-content {
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Services Page */
+  .services-list {
+    margin-left: 30px;
+  }
+  
+  .services-list li {
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Page */
+  .contact-details {
+    margin-left: 30px;
+  }
+  
+  .contact-details li {
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    nav ul li {
+      margin-right: 5px;
+    }
+  }
+  
